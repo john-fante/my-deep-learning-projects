@@ -17,11 +17,7 @@ In the 100th epoch
 
 
 
-
-https://github.com/john-fante/my-deep-learning-projects/assets/50263592/26cc1d20-9c26-4e19-bb9a-acde28413367
-
-
-
+https://github.com/john-fante/my-deep-learning-projects/assets/50263592/63c11f39-16d7-4b69-9bf4-acff5c70f6c5
 
 
 ## References
