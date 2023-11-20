@@ -17,7 +17,9 @@ In the 100th epoch
 
 
 
-https://github.com/john-fante/eye-conjunctiva-segmentation/assets/50263592/44543226-ea48-481c-9927-63e17804e4ea
+
+https://github.com/john-fante/my-deep-learning-projects/assets/50263592/26cc1d20-9c26-4e19-bb9a-acde28413367
+
 
 
 
