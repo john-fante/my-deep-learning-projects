@@ -1,5 +1,7 @@
 # Zipper Defect Classification (AUC Score: 0.98)
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/zipper-defect-classification-auc-score-0-98 </b>
+
 I have used the following methods.
 
 * I used an image processing methods for images <span style="color:#e74c3c;"> <b>(contrast limited adaptive histogram equalization (CLAHE)[1])</b> </span>
@@ -11,24 +13,25 @@ I have used the following methods.
 ## Model Architecture
 <br>
 
-![download (4)](https://github.com/john-fante/zipper-defect-classification/assets/50263592/1d92537c-e353-4200-b886-7e43c71e3b28)
+![270311810-1d92537c-e353-4200-b886-7e43c71e3b28](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/e591d9b2-0dd0-49f8-b60f-3692bc84cac4)
+
 
 ## Results
 <br>
 
-![__results___24_1](https://github.com/john-fante/zipper-defect-classification/assets/50263592/1407eff7-e1bc-43f8-b852-b550bdd3d5ee)
+![270312193-1407eff7-e1bc-43f8-b852-b550bdd3d5ee](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/1780718e-b06a-43e4-8492-99df46f3dbc5)
+
 
 ## Predictions
 <br>
+![270312599-776760de-df2c-4405-b93f-f755184ddebf](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/b74db5f9-4176-493a-8037-be0eeddf0aa6)
+![270312610-c253fd0d-14bf-4bdf-8252-1726a7066490](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/cf13bccf-0537-47ee-b6b7-474a6ef6d022)
 
-![fig_1-min](https://github.com/john-fante/zipper-defect-classification/assets/50263592/776760de-df2c-4405-b93f-f755184ddebf)
-
-![fig_10-min](https://github.com/john-fante/zipper-defect-classification/assets/50263592/c253fd0d-14bf-4bdf-8252-1726a7066490)
 
 ## Confusion Matrix 
 <br>
 
-![__results___31_1](https://github.com/john-fante/zipper-defect-classification/assets/50263592/9532814e-d5f9-4849-9d10-079f4f64bc21)
+![270313186-9532814e-d5f9-4849-9d10-079f4f64bc21](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/927068be-bc35-4480-9e27-923ae8078bb3)
 
 
 ## References
