@@ -12,16 +12,13 @@ I have used the following methods.<br>
 
 - Graphs <br>
 
-![Unknown](https://github.com/john-fante/brain-tumor-segmentation-tpu/assets/50263592/f14118de-e026-4d9d-a5e4-5d8a41dd0f1b)
+![265419086-f14118de-e026-4d9d-a5e4-5d8a41dd0f1b](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/5909830b-07c8-4c01-bec9-d380a38d7a71)
 
 
 - Sample prediction masks <br>
 
-![exp1](https://github.com/john-fante/brain-tumor-segmentation-tpu/assets/50263592/eeda0c8e-c962-4176-a4f7-6936338d39ef)
+![265419374-eeda0c8e-c962-4176-a4f7-6936338d39ef](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/365a8033-f493-49bd-b0c0-1a1af0102b2b)
 
-![exp2](https://github.com/john-fante/brain-tumor-segmentation-tpu/assets/50263592/cfd98392-eb05-4b19-8897-9b1ea962bca4)
-
-![exp3](https://github.com/john-fante/brain-tumor-segmentation-tpu/assets/50263592/2760fb93-5ac7-4e0a-9d68-4d4bb8fbfdae)
 
 
 ## References <br>
