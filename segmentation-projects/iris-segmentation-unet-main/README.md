@@ -1,5 +1,7 @@
 # Iris Segmentation U-net w/TPU (Dice Coef: 0.94, Jaccard Index : 0.88)
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/iris-segmentation-u-net-w-tpu-dice-coef-0-94 </b>
+
 I have used the following methods.
 
 * <b>Dice coefficient</b> and <b>Jaccard index</b> implementation,
