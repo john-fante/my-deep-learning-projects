@@ -1,5 +1,7 @@
 # Particle Segmentation Custom DeepLabv3+
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/particle-segmentation-deeplabv3-test-dice-0-89 </b>
+
 I have used the following methods.
 
 * I have implemented DeepLabv3+ stemmed from this Keras example[1,2],
