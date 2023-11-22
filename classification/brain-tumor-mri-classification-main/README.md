@@ -1,4 +1,7 @@
 ## Brain Tumor Classification (Normal, Glioma, Meningioma, Pituitary)
+
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/mri-classification-86-275-test-acc </b>
+
 <br>
 ❗️As far as I am concerned, there is a problem with the data. <br>
 
@@ -9,7 +12,8 @@ Although there is a problem, I yielded plausible accuracy and  an auc score usin
 <br>
 
 
-<img style="width:70%; margin:10px;" src = "https://github.com/john-fante/brain-tumor-mri-classification/assets/50263592/e949aaad-164f-4648-98f5-aa7a24394e64" alt="mri planes" />
+<img style="width:70%; margin:10px;" src = "https://github.com/john-fante/my-deep-learning-projects/assets/50263592/ac25d804-eacd-460d-83a3-52ffa1473d4c" alt="mri planes" />
+
 
 ## Result
 <p>Of course, this type of big fluctuation in validation metrics is not good. Changing some callbacks criteria help improve the model generalization. In my experience, sometimes the accuracy balances when epochs increase. </p>
