@@ -24,7 +24,9 @@ I have used the following methods.
 
 ## Predictions
 <br>
+
 ![270312599-776760de-df2c-4405-b93f-f755184ddebf](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/b74db5f9-4176-493a-8037-be0eeddf0aa6)
+
 ![270312610-c253fd0d-14bf-4bdf-8252-1726a7066490](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/cf13bccf-0537-47ee-b6b7-474a6ef6d022)
 
 
