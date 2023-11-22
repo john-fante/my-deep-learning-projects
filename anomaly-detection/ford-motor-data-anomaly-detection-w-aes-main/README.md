@@ -13,7 +13,10 @@
 <br>
 
 - Confusion matrix of the test data<br>
-![download (4)](https://github.com/john-fante/ford-motor-data-anomaly-detection-w-aes/assets/50263592/86ae407a-baca-4c17-8b57-ad505685f460)
+
+![259975769-86ae407a-baca-4c17-8b57-ad505685f460](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/05d04798-1787-4609-bc82-270966d106cf)
+
+
 
 
 # References
