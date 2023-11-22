@@ -1,5 +1,7 @@
 # Retina Blood Vessel Segmentation w/TPU
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/retina-vessel-segmentation-w-tpu-test-dice-0-75 </b>
+
 I have used the following methods.
 
 
@@ -12,24 +14,25 @@ I have used the following methods.
 * <b>1000 epochs</b> for training (of course, although this number is very high, the metrics(dice, loss) continued improvement during training)
 
 
-## My Another Project About Eyes
-
-* [Iris Segmentation U-net w/TPU (Dice Coef: 0.94)](https://www.kaggle.com/code/banddaniel/iris-segmentation-u-net-w-tpu-dice-coef-0-94)
-* [Eye Conjunctiva Segmentation with U-Net using TPU (Dice : 0.91, Jaccard : 0.82)](https://github.com/john-fante/eye-conjunctiva-segmentation)
 
 
 ## Test Set Prediction During Training
 
 
-https://github.com/john-fante/retina-vessel-segmentation/assets/50263592/79b31c76-9d25-415f-84fc-4b1d20f009cf
+
+https://github.com/john-fante/my-deep-learning-projects/assets/50263592/a7564b04-3456-46d9-a4c0-98d792660767
+
+
 
 ## Results
 
-![__results___27_1](https://github.com/john-fante/retina-vessel-segmentation/assets/50263592/a254a1eb-4b22-4c41-bf41-a4e998b552ef)
+![269256579-a254a1eb-4b22-4c41-bf41-a4e998b552ef](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/8c3c29ae-2103-414a-9f2d-4e08768fbb6c)
+
 
 ## Test Set Predictions
 
-![download](https://github.com/john-fante/retina-vessel-segmentation/assets/50263592/71709771-382a-401a-9758-58d94ce6a6bb)
+![269256721-71709771-382a-401a-9758-58d94ce6a6bb](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/072cfdb2-7caa-48f5-9f23-256de62e2e6a)
+
 
 
 
