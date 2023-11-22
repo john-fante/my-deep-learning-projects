@@ -13,13 +13,10 @@ I have used the following methods.
 
 ## Predictions 
 
-![__results___28_1](https://github.com/john-fante/iris-segmentation-u-net/assets/50263592/4d1757b3-17b8-4c42-badc-ab3a19a57a06)
-![__results___28_0](https://github.com/john-fante/iris-segmentation-u-net/assets/50263592/aa78767d-4f7f-4df3-a5eb-6cd8d943c7a2)
+![266796515-aa78767d-4f7f-4df3-a5eb-6cd8d943c7a2](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/ebe486db-ff6b-40f7-88cf-8725fd8666a1)
 
 
-## Graphs
-
-![__results___23_1](https://github.com/john-fante/iris-segmentation-u-net/assets/50263592/851bf393-6474-4bb0-b8a0-4b20e4344c7c)
+![266796487-4d1757b3-17b8-4c42-badc-ab3a19a57a06](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/c99a97a6-7efa-4045-a595-531973f767a3)
 
 
 
