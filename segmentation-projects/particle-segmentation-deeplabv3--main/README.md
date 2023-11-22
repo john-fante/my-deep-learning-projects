@@ -22,10 +22,12 @@ I have used the following methods.
 
  
 ## Test Set Predictions
-![download (27)](https://github.com/john-fante/particle-segmentation-deeplabv3-/assets/50263592/737346c3-6233-4711-8050-c4936c9270b7)
-![download (26)](https://github.com/john-fante/particle-segmentation-deeplabv3-/assets/50263592/0260e2b0-0c8c-463d-854c-9586ffe185e5)
 
-    
+![278710633-737346c3-6233-4711-8050-c4936c9270b7](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/7333f389-1cc6-4181-9463-43601f6382e1)
+![278710646-0260e2b0-0c8c-463d-854c-9586ffe185e5](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/459466fb-e276-49dc-828e-149b15d59d2a)
+
+
+
 
 
 ## References
