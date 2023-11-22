@@ -1,5 +1,7 @@
 # Pneumonia Detection with Ensemble Deep Learning
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/pneumonia-detection-w-ensemble-dl-0-91-auc </b>
+
 <br>
 First of all, I have added samples of both classes to the validation data from the training data. The validation data was very small (only 16 samples). I have used 2 pretrained models, namely Xception and InceptionV3. Lastly, I used an ensemble method using  2 models using  a weighted average layer.<br>
 
@@ -25,7 +27,7 @@ I used followed methods<br>
 
 - Confusion Matrices <br>
 
-![git_pneumonia](https://github.com/john-fante/pneumonia-detection-with-ensemble-deep-learning/assets/50263592/a634eafb-99ae-4256-aeb0-e6ea34d3c1df)
+![262597147-a634eafb-99ae-4256-aeb0-e6ea34d3c1df](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/cd256e12-273f-4377-90f1-900d8489bd90)
 
 
 
