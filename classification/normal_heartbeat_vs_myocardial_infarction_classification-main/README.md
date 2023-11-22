@@ -10,4 +10,5 @@ Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
 <li> ROC AUC Score : 0.842 </li>
 
 <i>Confusion Matrix</i>
-![257337375-828fa795-29ef-4b47-8a3b-42d2d7879170](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/a00ff53b-3d86-4b06-9337-c58c5edc3d55)
+
+![258211685-ccaed2e9-acf6-4343-85dd-bd711204c46b](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/d0445660-f3b0-4d1d-a93d-55316a579f07)
