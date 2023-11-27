@@ -1,5 +1,7 @@
 # Dental X-Rays Classification
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/dental-x-rays-classification-test-f1-score-0-72 </b>
+
 I tried a custom CNN model and other pretrained models (Xception,ResNet50, MobileNet, EfficientNetB0, ResNet101). However, I haven't obtained sufficient results in respect of accuracy and F1 score. This dataset is unbalanced. For example, the Cavity class has only 22 samples in the test set. I tried the 'class weights' method, but there was no improvement. I used a basic data augmentation method.
 
 I have used the following methods.
