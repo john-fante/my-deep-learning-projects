@@ -1,5 +1,7 @@
 # Segment Medical Instrument w/Custom DeepLabv3+
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/segment-medical-instrument-deeplabv3-dice-0-86 </b>
+
 I have used the following methods.
 
 * I have implemented DeepLabv3+ stemmed from this Keras example[1,2],
@@ -22,13 +24,15 @@ I have used the following methods.
 | Jaccard Index    | 0.9571           | 0.9534           | <b>0.8234    </b>  |
 
 ## Training Results
-![__results___23_1 (1)](https://github.com/john-fante/segment-medical-instrument/assets/50263592/920f8165-c671-4550-ab8a-2be16ff42d26)
+
+![278413728-920f8165-c671-4550-ab8a-2be16ff42d26](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/42dcce9d-fc04-4ca8-9058-93780bf929f1)
 
 
     
 ## Predictions
-![download (29)](https://github.com/john-fante/segment-medical-instrument/assets/50263592/e1d49df3-fe6e-4b74-99b0-27c6589d1c40)
-![download (30)](https://github.com/john-fante/segment-medical-instrument/assets/50263592/546c20b3-6379-41da-a492-1f634aa4faf0)
+
+![278413412-e1d49df3-fe6e-4b74-99b0-27c6589d1c40](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/61d816fd-d0dc-4974-b840-b246be0eda8d)
+![278413439-546c20b3-6379-41da-a492-1f634aa4faf0](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/3c1a85a3-949f-48c2-9742-6689078604e5)
 
     
 
