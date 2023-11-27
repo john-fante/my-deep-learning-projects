@@ -1,5 +1,7 @@
 # Damaged Lamp Detection w/detectron2 (Faster R-CNN)
 
+<b> kaggle -> https://www.kaggle.com/code/banddaniel/damaged-lamp-detection-w-detectron2-faster-r-cnn </b>
+
 I have used the following methods.
 
 * I used a pretrained <b>Faster R-CNN with ResNet-101 Region Proposal Network</b> from detectron2 [1,2]
@@ -7,7 +9,8 @@ I have used the following methods.
 * I used the train and the validation sets for training.
 
 ## Test Set Predictions
-<img width="388" alt="download (15)" src="https://github.com/john-fante/damaged-lamp-detection/assets/50263592/733591f5-71b9-497d-a7df-4a693563c4ea">
+
+<img width="388" alt="271843981-733591f5-71b9-497d-a7df-4a693563c4ea" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/d3dd1ec2-059c-47d7-8bae-a2a3359d5134">
 
 
 ## References
