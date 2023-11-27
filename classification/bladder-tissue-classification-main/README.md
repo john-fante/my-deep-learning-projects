@@ -1,5 +1,7 @@
 # Bladder Tissue Classification w/ViT (F1 Score: 0.82)
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/bladder-tissue-classification-w-vit-f1-scr-0-82 </b>
+
 Firstly, I have used pretrained convolutional based models (a custom CNN, VGG19, Inception, ResNet101 etc.), but haven't obtained a good F1 Score in the test prediction. Then I tried a pretrained ViT model with preprocessed images I obtained good results. 
 
 <br>
@@ -16,14 +18,18 @@ I have used the following methods.
 
 
 ## Image Processing Operation
-![download (37)](https://github.com/john-fante/bladder-tissue-classification/assets/50263592/e4c2027e-ff88-472b-bc53-a074dcefac91)
+
+![280665833-e4c2027e-ff88-472b-bc53-a074dcefac91](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/1bf0da09-f5fa-4e64-9486-a8ef20388cf5)
+
 
 ## Test Results
-![__results___23_1 (1)](https://github.com/john-fante/bladder-tissue-classification/assets/50263592/47cb47d4-cc85-4cef-a65e-d53578889a29)
+
+![280666017-47cb47d4-cc85-4cef-a65e-d53578889a29](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/803e480c-9dd4-40f7-8513-669352dd79c0)
 
 
 ## Test Set Predictions
-![download (38)](https://github.com/john-fante/bladder-tissue-classification/assets/50263592/ddb1256d-84a9-4253-ab66-4c21d39d8859)
+
+![280665793-ddb1256d-84a9-4253-ab66-4c21d39d8859](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/1fa20847-03f8-411d-93f7-3fcd5319de9c)
 
 
 ## References
