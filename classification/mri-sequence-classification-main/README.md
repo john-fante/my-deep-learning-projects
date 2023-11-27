@@ -1,5 +1,7 @@
 # MRI Sequence Classification w/Custom CNN
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/mri-sequence-classification-w-custom-cnn </b>
+
 ## My Goal
 I have wanted to build a machine learning project about classifying MRI sequences, because sometimes a specific sequence (for example T2) can be more adequate, for example, a segmentation problem in respect of a research domain. On the other hand, some brain tissues or organs can be visualized in some specific sequence [2].
 
