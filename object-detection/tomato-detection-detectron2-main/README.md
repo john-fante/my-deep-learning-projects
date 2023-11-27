@@ -1,5 +1,7 @@
 # Tomato Detection w/detectron2 (mAP@50: 82.02)
 
+<b> kaggle link -> https://www.kaggle.com/code/banddaniel/tomato-detection-w-detectron2-map-50-82-02 </b>
+
 
 <span style="color:#e74c3c;"> <b>Note:</b> There was a problem with categorical ids of the test annotation file. I adjusted this problem and uploaded the corrected file.[1] </span> 
 
@@ -10,11 +12,15 @@ I have used the following methods.
 
 
 ## Test Set Predictions
-![download (34)](https://github.com/john-fante/tomato-detection-detectron2/assets/50263592/ddb9261e-fa60-4a93-a337-846631b4d4ba)
-![download (33)](https://github.com/john-fante/tomato-detection-detectron2/assets/50263592/660d1480-23aa-46ac-8e69-dbc9b2f7992f)
+
+![280650299-ddb9261e-fa60-4a93-a337-846631b4d4ba](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/aadd7285-29eb-4810-8729-b025e1af7284)
+![280650335-660d1480-23aa-46ac-8e69-dbc9b2f7992f](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/98d387b5-62d8-4be3-9370-cdccdfc70497)
+
 
 ## Results
-![__results___13_1](https://github.com/john-fante/tomato-detection-detectron2/assets/50263592/0567b8d3-af40-47f8-bf7c-50c7c56b8f96)
+
+![280650508-0567b8d3-af40-47f8-bf7c-50c7c56b8f96](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/36cda7ec-b3d0-440c-9700-ca000557231e)
+
 
 ## References
 1. https://www.kaggle.com/datasets/banddaniel/adjusted-tomato-od-test-json
