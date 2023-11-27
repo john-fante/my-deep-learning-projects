@@ -7,11 +7,14 @@ I have used the following methods.
 
 
 ## Test Set Predictions
-![download (38)](https://github.com/john-fante/tomato-segmentation-detectron2/assets/50263592/afce37bc-8bc5-4655-8ce0-18c07f116ecc)
-![download (39)](https://github.com/john-fante/tomato-segmentation-detectron2/assets/50263592/9b7b5234-0d64-49f1-88e4-3604ca2a6b93)
+
+![280653366-afce37bc-8bc5-4655-8ce0-18c07f116ecc](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/89ee3a50-140e-48c5-b177-18fc65e4f701)
+![280653391-9b7b5234-0d64-49f1-88e4-3604ca2a6b93](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/14a22ba4-827c-4e0b-9e36-9e3bd4b03c0e)
+
 
 ## Results
-![__results___13_1 (1)](https://github.com/john-fante/tomato-segmentation-detectron2/assets/50263592/8b422c6e-8690-42f3-9681-fa2106bb17ed)
+
+![280653466-8b422c6e-8690-42f3-9681-fa2106bb17ed](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/ed315230-e729-43c1-9dd8-8d4b98414302)
 
 
 ## References
