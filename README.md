@@ -64,10 +64,10 @@
 #### Object Detection
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/damaged-lamp-detection-main"> Damaged Lamp Detection w/detectron2 (Faster R-CNN) </a></li>
-
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/plate-detection-main"> Plate Detection w/detectron2 </a> (mAP@75: 89.19) </li>
-
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tomato-detection-detectron2-main"> Tomato Detection w/detectron2 </a> (mAP@50: 82.02) </li>
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tiny-vehicle-detection-detectron2"> Tiny Vehicle Detection w/detectron2 </a> (mAP@50: 32.08) </li>
+
 
 
 
