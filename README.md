@@ -72,7 +72,7 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tomato-detection-detectron2-main"> Tomato Detection w/detectron2 </a> (mAP@50: 82.02) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tiny-vehicle-detection-detectron2"> Tiny Vehicle Detection w/detectron2 </a> (mAP@50: 32.08) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/traffic-signs-detect-detectron2"> Traffic Signs Detect w/detectron2 </a> (mAP@50: 71.62) </li>
-
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/road-mark-detection-detectron2"> Road Mark Detection (ResNet-50, ResNeXt 101 FPNs) </a> </li>
 
 
 
