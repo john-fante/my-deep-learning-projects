@@ -38,6 +38,10 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/glaucoma-classification-vit"> Glaucoma Classification w/ViT </a> (F1 Score: 0.91) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/chest-xray-classification-vit"> Chest X-Ray Classification w/ViT </a> (F1 Score: 0.9) </li>
+
+
+
 
 
 
