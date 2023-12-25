@@ -1,16 +1,16 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Document Classification w/ViT
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/document-classification-w-vit )
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
+* I used a pretrained <b>ViT</b> architecture for the feature extraction stage [1],
+* <b>gelu</b> activation function during the classification stage,
+* The project took place using <b>Google TPU</b>,
+* Used <b>tf.data</b> for input pipeline,
+
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+## References
+1. https://github.com/faustomorales/vit-keras
