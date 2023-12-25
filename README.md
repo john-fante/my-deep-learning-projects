@@ -40,6 +40,8 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/chest-xray-classification-vit"> Chest X-Ray Classification w/ViT </a> (F1 Score: 0.9) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/document-classification-vit"> Document Classification w/ViT  </a> </li>
+
 
 
 
