@@ -36,6 +36,11 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/zipper-defect-classification-main"> Zipper Defect Classification </a> (AUC Score: 0.98) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/glaucoma-classification-vit"> Glaucoma Classification w/ViT </a> (F1 Score: 0.91) </li>
+
+
+
+
 
 #### Segmentation
 
