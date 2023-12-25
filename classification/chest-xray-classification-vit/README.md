@@ -1,16 +1,27 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Chest X-Ray Classification w/ViT (F1 Score: 0.9)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/chest-x-ray-classification-w-vit-f1-score-0-9 )
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
+* I used a pretrained <b>ViT</b> architecture for the feature extraction stage [1],
+* <b>gelu</b> activation function during the classification stage,
+* I used an image processing methods for images <b>(contrast limited adaptive histogram equalization (CLAHE)[2]),</b>
+* The project took place using <b>Google TPU</b>,
+* Used <b>tf.data</b> for input pipeline,
+
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+<img width="947" alt="download (32)" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/911c390c-5100-4619-925e-c3d3ff31fb16">
+
+
+
+## Image Processing Operation
+
+![download (33)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/870ae5a9-dc0a-443d-9e5d-9ab417aa7277)
+
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
+2. https://en.wikipedia.org/wiki/Adaptive_histogram_equalization
