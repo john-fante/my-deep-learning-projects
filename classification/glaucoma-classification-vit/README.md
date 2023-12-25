@@ -1,16 +1,28 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Glaucoma Classification w/ViT
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/glaucoma-classification-w-vit-f1-score-0-91)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
+* I used a pretrained <b>ViT</b> architecture for the feature extraction stage [1],
+* <b>gelu</b> activation function during the classification stage,
+* I used two image processing methods for images <b>(green channel conversion[2], contrast limited adaptive histogram equalization (CLAHE)[3]),</b>
+* The project took place using <b>Google TPU</b>,
+* Used <b>tf.data</b> for input pipeline,
+
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+<img width="752" alt="download (2)" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/78ebd611-2190-4668-95dc-31819d9bdd92">
+
+## Image Processing Operation
+
+![download (3)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/00361038-80bf-43e5-a65b-caef19964fc7)
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
+2. Rathod, Deepali & Manza, Ramesh & Rajput, Yogesh & Patwari, Manjiri & Saswade, Manoj & Deshpande, Neha. (2014). Localization of Optic Disc and Macula using Multilevel 2-D Wavelet Decomposition Based on Haar Wavelet Transform. International Journal of Engineering Research & Technology (IJERT)
+3. https://en.wikipedia.org/wiki/Adaptive_histogram_equalization
+
+
