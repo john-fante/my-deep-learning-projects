@@ -46,7 +46,7 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/rice-classification-custom-resnet50"> Rice Classification w/Custom ResNet50 </a> (ACC 85%) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/maize-classification-custom-resnet18"> Maize Classification w/Custom ResNet18 </a> (AUC Score: 0.98) </li>
 
-
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/beard-detection"> Beard Detection w/Transfer Learning </a> </li>
 
 
 #### Segmentation
