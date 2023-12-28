@@ -62,6 +62,8 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/particle-segmentation-deeplabv3--main"> Particle Segmentation Custom DeepLabv3+ </a> (Dice : 0.93, Jaccard : 0.88) </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/retina-vessel-segmentation-main">Retina Vessel Segmentation U-net w/TPU </a> (Dice : 0.75) </li>
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/lung-segmentation-unet-separableconv">Lung Segmentation UNet w/SeparableConv </a> (Dice : 0.93) </li>
+
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/segment-medical-instrument-main"> Segmentation Medical Instrument w/Custom DeepLabv3+ </a> (Dice : 0.86) </li>
 
