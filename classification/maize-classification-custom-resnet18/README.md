@@ -1,16 +1,24 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Maize Classification w/Custom ResNet18
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/maize-classification-w-custom-resnet18-auc-0-928)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I used a custom ResNet-18[1] architecture,
+* <b>A custom layer</b> for residual block,
+* Splitted train(3876 images) and test set (970 images),
+* Used tf.data for input pipeline,
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+## Lightweight ResNet-18 Model
+
+![download (40)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/1c6b71b9-6656-4d9b-8c3f-24e06d8966b6)
+
+
+## Test Set Predictions
+![download (41)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/0040817d-7297-4256-98f0-b8fcfad8d13e)
+![download (39)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/e7308e84-8d6d-4701-9b8a-c33d1ebdfd28)
+
+
+
+## References
+1. He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition (Version 1). arXiv. https://doi.org/10.48550/ARXIV.1512.03385
