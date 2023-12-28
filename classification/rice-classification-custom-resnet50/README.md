@@ -1,16 +1,21 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Rice Classification w/Custom ResNet50
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/rice-classification-w-custom-resnet50-acc-85)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I used a custom ResNet-50[1] architecture,
+* The project took place using <b>Google TPU</b>,
+* I used the validation set for testing
+* <b>elu</b> activation function
+* <b>A custom layer</b> for residual block,
+* <span style="color:#e74c3c;"> <b>NOTE:</b> Of course, the accuracy metric is very high (if there is a data leakage between the train dataset and the test dataset, there is a problem named overfitting), but the loss metric continued decreasing and lastly the model has yielded reasonable results in respect of the confusion matrix. </span>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+## Test Set Predictions
+![download (38)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/23014808-f2da-4462-a58a-0bd36715d334)
+
+
+
+## References
+1. He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition (Version 1). arXiv. https://doi.org/10.48550/ARXIV.1512.03385
