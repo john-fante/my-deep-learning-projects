@@ -1,16 +1,28 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Diamond Detect w/Hybrid Model (ViT,CatBoost,SHAP)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/diamond-detect-w-hybrid-model-vit-catboost-shap )
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I tried to use a hybrid model in this project. In this technique, first I used a custom ViT (Vision Transformer) model for the feature extraction stage,  then merged the metadata .csv file with the ViT features, then applied PCA for the curse of dimensionality problem, and finally used a CatBoost model for the classification stage.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+### <span style="color:#e74c3c;">  ViT Model (for Feature Extraction) -> Merging with .csv file (using for another features) -> PCA (for Dimensionality Reduction) -> CatBoostClassifier (for Classification) </span> 
+
+
+|                                 | Training Feature Shape |
+|---------------------------------|-------------|
+| ViT Features                    | (39464, 64)  |
+| After PCA (99 % Variance Ratio) | (39464, 42)   |
+
+
+
+* I used a mirrored strategy (using 2 T4 GPU at the same time),
+* I split the full data into train (39498 images), validation (4389 images) and test (4877 images),
+* I used a customized ViT model [1],
+* Used <b>tf.data</b> for input pipeline,
+* I used a CatBoost model for classification,
+* SHAP for feature explanation,
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
