@@ -70,6 +70,7 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/tomato-segmentation-detectron2-main"> Tomato Segmentation w/detectron2 </a> (mask AP: 61.94) </li>
 
+
 #### Object Detection
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/damaged-lamp-detection-main"> Damaged Lamp Detection w/detectron2 (Faster R-CNN) </a></li>
