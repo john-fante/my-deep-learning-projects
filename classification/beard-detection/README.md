@@ -1,16 +1,17 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Beard Detection w/Transfer Learning
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/beard-detection-w-transfer-learning)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+I used several pretrained models (Xception, VGG19, MobileNetV2, EfficientNetB2, ResNet50) and a custom CNN model but haven't obtained a good result in respect of classification metrics (AUC, Precision, Recall and F1).
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+I have used the following methods.
+
+* 5 Kfold cross-validation,
+* Used tf.data for input pipeline,
+* Data augmentation,
+
+## My Another Projects
+* [Maize Classification w/Custom ResNet18 (AUC 0.928)](https://www.kaggle.com/code/banddaniel/maize-classification-w-custom-resnet18-auc-0-928)
+* [Lung Segmentation UNet w/SeparableConv (Dice:0.93)](https://www.kaggle.com/code/banddaniel/lung-segmentation-unet-w-separableconv-dice-0-93)
+* [Crop Water Quality Clf (ROC AUC 0.7) w/CatBoost](https://www.kaggle.com/code/banddaniel/crop-water-quality-clf-roc-auc-0-7-w-catboost)
