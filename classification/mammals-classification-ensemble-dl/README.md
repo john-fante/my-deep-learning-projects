@@ -1,16 +1,24 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Mammals Classification w/Ensemble Deep Learning
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+First of all, I am very keen on trying new methods. This is why I tried an Ensemble Deep Learning method in this project. I impressed an article named "HCF: A Hybrid CNN Framework for Behavior Detection of Distracted Drivers" in this project [1]. In this technique, first I used 2 pretrained models (Xception, and DenseNet201). Then saved models and weights for using in the ensemble model. At this stage, I combined the 2 models with the GlobalAveragePooling2D layer outputs (as in the article). In conclusion, there is a lightly improvement in respect of the model's accuracy and F1 score.
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+<i><b><span style="color:#e74c3c;"> Note: Of course, there are other models better than my model in respect of the classification metrics, but I tried to a basic implementation of a paper. </span> </b></i>
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+## Xception + DenseNet201 --> The Ensemble Model
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+![download (35)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/75467368-195a-4ec3-a53a-8131002572c8)
+
+<i> Figure : the proposed framework in the paper [1]</i>
+
+
+
+I have used the following methods.
+
+* The project took place using <b>Google TPU</b>,
+* Used <b>tf.data</b> for input pipeline,
+* I split the full data into train, validation and test sets,
+* Used <b>tf.data</b> for input pipeline,
+
+
+## References
+1. Huang, C., Wang, X., Cao, J., Wang, S., & Zhang, Y. (2020). HCF: A Hybrid CNN Framework for Behavior Detection of Distracted Drivers. In IEEE Access (Vol. 8, pp. 109335–109349). Institute of Electrical and Electronics Engineers (IEEE). https://doi.org/10.1109/access.2020.3001159
