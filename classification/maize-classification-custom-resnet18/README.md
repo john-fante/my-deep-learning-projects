@@ -1,4 +1,4 @@
-## Maize Classification w/Custom ResNet18
+## Maize Classification w/Custom ResNet18 (AUC 0.928)
 
 (kaggle link -> https://www.kaggle.com/code/banddaniel/maize-classification-w-custom-resnet18-auc-0-928)
 
