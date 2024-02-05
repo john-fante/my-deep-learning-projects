@@ -1,16 +1,27 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Cloud Classification (Involution Neural Network)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/cloud-classification-involution-neural-network)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
+<b>I am very keen on new methods and models in machine learning. This is why I use the involutional neural network [1]. I think it is a very interesting approach. Involution based models are good in respect of the model complexity problem.</b>
+
+
+I have used the following methods.
+
+* I used an image enhancement method for images (increasing brightness),
+* Created an INN (involutional neural network) layer,
+* Rectified and recreated functions in this notebook [2],
+* Custom callback for evaluating test dataset during training each 10 epochs[3]
+
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+![download (8)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/95ad62ed-7f3b-4e9f-b958-886f8210a237)
+
+<i> <b>Figure 1:</b> Schematic illustration of our proposed involution [1]</i>
+
+
+
+## References
+1. Li, D., Hu, J., Wang, C., Li, X., She, Q., Zhu, L., Zhang, T., & Chen, Q. (2021). Involution: Inverting the Inherence of Convolution for Visual Recognition (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2103.06255
+2. https://keras.io/examples/vision/involution/
+3. https://github.com/john-fante/my-tensorflow-custom-callbacks
