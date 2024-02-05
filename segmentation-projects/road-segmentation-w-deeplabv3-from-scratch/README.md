@@ -1,16 +1,28 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Road Segmentation w/DeepLabv3+ from Scratch
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link-> https://www.kaggle.com/code/banddaniel/road-segmentation-w-deeplabv3-from-scratch)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I have implemented DeepLabv3+ stemmed from this Keras example[1,2],
+* I inverted the original masks <b><span style="color:#e74c3c;"></span></b> in the image preprocessing stage,
+* <b>Dice coefficient</b> and <b>Jaccard index</b> implementation[3],
+* I used <b><span style="color:#e74c3c;"> DeepLabv3+ implementation</span></b> with ResNet50 backbone,
+* Used tf.data for input pipeline,
+* <b>A Custom layer</b> for convolution operation,
+* <b>A Custom layer</b> for Dilated Spatial Pyramid Pooling operation,
+* I don't use validation dataset
+    
+ 
+    
+## Test Set Predictions
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+![download (11)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/dfed450b-59a1-405f-978a-2288bab58daa)
+
+
+
+## References
+1. https://keras.io/examples/vision/deeplabv3_plus/#building-the-deeplabv3-model
+2. Chen, L.-C., Zhu, Y., Papandreou, G., Schroff, F., & Adam, H. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation (Version 3). arXiv. https://doi.org/10.48550/ARXIV.1802.02611
+3. https://en.wikipedia.org/wiki/Sørensen–Dice_coefficient
+4. https://en.wikipedia.org/wiki/Leakage_(machine_learning)
