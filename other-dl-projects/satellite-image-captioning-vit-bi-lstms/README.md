@@ -1,16 +1,27 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Satellite Image Captioning (ViT, Bi-LSTMs)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/satellite-image-captioning-vit-bi-lstms)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I tried to implementation of distributed deep learning strategy,
+* I used a pretrained ViT model for image feature extraction [1],
+* Used <b>tf.data</b> and <b>Data Generator</b> for input pipeline,
+* rectified and recreated functions in this notebook [2],
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+* <b><i> I tried a mirrored strategy of using 2 GPU at the same time in the training stage, but this gave rise to an infinite loop.</i></b>
+
+## Prediction Pipeline
+
+![download (4)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/7b4fca5f-1c5a-485c-9768-1dfae4ed7d75)
+
+
+## Predictions
+
+![download (5)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/be3a25c7-c5a9-45c2-a8b6-faeb303ca6f1)
+
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
+2. https://www.kaggle.com/code/quadeer15sh/flickr8k-image-captioning-using-cnns-lstms
