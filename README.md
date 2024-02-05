@@ -1,4 +1,5 @@
 # My Deep Learning Projects
+
 #### Classification
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/30-plants-classification-main"> 30 Plants Detection w/Custom ConvMixer based CNN </a>  (F1 Score: 0.77) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/bladder-tissue-classification-main"> Bladder Tissue Classification w/ViT </a>  (F1 Score: 0.82) </li>
@@ -42,11 +43,12 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/document-classification-vit"> Document Classification w/ViT  </a> </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/polish-bird-sounds%20classification"> (76 GB) 160 Polish Bird Sounds Classification </a> </li>
-
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/rice-classification-custom-resnet50"> Rice Classification w/Custom ResNet50 </a> (ACC 85%) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/maize-classification-custom-resnet18"> Maize Classification w/Custom ResNet18 </a> (AUC Score: 0.98) </li>
 
-<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/beard-detection"> Beard Detection w/Transfer Learning </a> </li>
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/sport-scene-classification-vit"> Sport Scene Classification w/ViT (3 KFold CV)  </a> </li>
+
+
 
 
 #### Segmentation
@@ -70,6 +72,16 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/tomato-segmentation-detectron2-main"> Tomato Segmentation w/detectron2 </a> (mask AP: 61.94) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/brain-tumor-segmentation-detectron2"> Brain Tumor Segmentation w/detectron2 </a> (mAP@50:76.2) </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/road-segmentation-w-deeplabv3-from-scratch"> Road Segmentation w/DeepLabv3+ from Scratch </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/segmentation-projects/segmenting-hutu-cells-deeplabv3"> Segmenting HuTu Cells DeepLabv3+  </a> (Test Dice: 0.93) </li>
+
+
+
+
+
 
 #### Object Detection
 
@@ -78,16 +90,30 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tomato-detection-detectron2-main"> Tomato Detection w/detectron2 </a> (mAP@50: 82.02) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/tiny-vehicle-detection-detectron2"> Tiny Vehicle Detection w/detectron2 </a> (mAP@50: 32.08) </li>
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/traffic-signs-detect-detectron2"> Traffic Signs Detect w/detectron2 </a> (mAP@50: 71.62) </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/sign-detection-yolov8"> Sign Detection w/Keras YOLO V8 </a> </li>
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/road-mark-detection-detectron2"> Road Mark Detection (ResNet-50, ResNeXt 101 FPNs) </a> </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/bone-fracture-detection-detectron2"> Bone Fracture Detection (ResNet-50, ResNeXt 101 FPNs) </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/acne-detection-w-keras-yolo-v8"> Acne Detection w/Keras YOLO V8 </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/object-detection/brain-tumor-detection-w-keras-yolo-v8"> Brain Tumor Detection w/Keras YOLO V8 </a> </li>
 
 
 
 
+#### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
 
 
-#### Anomaly Detection
 
-<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/anomaly-detection/ford-motor-data-anomaly-detection-w-aes-main">Ford Motor Data Anomaly Detection w/AutoEncoder </a>  (Test ACC: 66.14 %) </li>
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/ford-motor-data-anomaly-detection-w-aes-main"> Ford Motor Data Anomaly Detection with AutoEncoder </a> </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/satellite-image-captioning-vit-bi-lstms"> Satellite Image Captioning (ViT, Bi-LSTMs)</a> </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/molecule-activity-deep-multiple-instance-learning"> Molecule Activity, Deep Multiple Instance Learning </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/cloud-classification-involution-neural-network"> Cloud Classification (Involution Neural Network) </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/car-detection-deep-multiple-instance-learning"> Car Detect w/Deep Multiple Instance Learning  </a> </li>
