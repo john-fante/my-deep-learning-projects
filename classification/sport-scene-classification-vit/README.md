@@ -1,16 +1,24 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Sport Scene Classification w/ViT (3 KFold CV) 
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/sport-scene-classification-w-vit-3-kfold-cv)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I have used the following methods.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I tried to implementation of distributed deep learning strategy,
+* I used a pretrained ViT model [1],
+* Used <b>tf.data</b> for input pipeline,
+* 3 KFold cross validation,
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+## Prediction Pipeline
+![download (1)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/b2dbb265-3122-498f-a032-540b13147b9b)
+
+
+## Predictions
+
+![download (2)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/9d05eb35-3e04-4619-8a3f-360f99a1431e)
+
+![download (3)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/20866f50-6ede-4bd2-a078-d3af5d18bfb1)
+
+
+## References
+1. https://github.com/faustomorales/vit-keras
