@@ -1,16 +1,18 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Bone Fracture Detection w/detectron2 (ResNet-50, ResNeXt 101 FPNs)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/bone-fracture-detect-resnet-50-resnext-101-fpns)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+* <i>(First Model) <b>Faster R-CNN with ResNeXt 101 Feature Pyramid Network</b> from detectron2 [1,2],</i>
+* <i>(Second Model) <b>Faster R-CNN with ResNet-50 Feature Pyramid Network</b> from detectron2 [1,2],</i>
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+I have used the following methods.
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+* I have modified the official notebook [3],
+* I downloaded COCO json files [4],
+
+
+## References
+1. Ren, S., He, K., Girshick, R., & Sun, J. (2015). Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (Version 3). arXiv. https://doi.org/10.48550/ARXIV.1506.01497
+2. https://detectron2.readthedocs.io/en/latest/
+3. https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5
+4. https://universe.roboflow.com/veda/bone-fracture-detection-daoon
