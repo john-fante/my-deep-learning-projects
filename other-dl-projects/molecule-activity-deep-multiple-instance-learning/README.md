@@ -1,16 +1,34 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Molecule Activity, Deep Multiple Instance Learning
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/molecule-activity-deep-multiple-instance-learning)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+<b>I tried the Multiple Instance Learning [1] method in this project. This method is very useful for weakly annotated data and tiled medical images.</b>
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
+I have used the following methods.
+
+* I used Gated Attention mechanism from the paper[2],
+* Printing bags examples,
+* 3 repetitive training steps (like 3-fold cross validation, but in this case we create new train and validation bags for each loop), at the end, averaging all the 3 loops test predictions
+* Rectified and recreated functions in this notebook [3],
+* Printing attention scores, 
+
+ 
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
+![download (6)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/c46088a8-5ff4-4fd2-b7ad-0fe17670e764)
+
+<i> <b>Figure 1:</b> Bags using in the Multiple Instance Learning</i>
+
 <br>
-<i>Confusion Matrix</i>
+
+
+![download (7)](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/6612e71f-1216-4ed0-8290-09f220721dfe)
+
+<i> <b>Figure 2:</b> Proposed Deep Multiple Instance Learning pipeline with gated attention [2]</i>
+
+
+
+## References
+1. https://en.wikipedia.org/wiki/Multiple_instance_learning
+2. Ilse, M., Tomczak, J. M., & Welling, M. (2018). Attention-based Deep Multiple Instance Learning (Version 4). arXiv. https://doi.org/10.48550/ARXIV.1802.04712
+3. https://keras.io/examples/vision/attention_mil_classification/
