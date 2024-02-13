@@ -117,3 +117,16 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/cloud-classification-involution-neural-network"> Cloud Classification (Involution Neural Network) </a> </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/car-detection-deep-multiple-instance-learning"> Car Detect w/Deep Multiple Instance Learning  </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/ford-motor-data-anomaly-detection-w-aes-main"> Ford Motor Data Anomaly Detection with AutoEncoder </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/satellite-image-captioning-vit-bi-lstms"> Satellite Image Captioning (ViT, Bi-LSTMs)</a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/molecule-activity-deep-multiple-instance-learning"> Molecule Activity, Deep Multiple Instance Learning </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/cloud-classification-involution-neural-network"> Cloud Classification (Involution Neural Network) </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/car-detection-deep-multiple-instance-learning"> Car Detect w/Deep Multiple Instance Learning  </a> </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/happy-detection-w-deep-multiple-instance-learning"> Happy Detection w/Deep Multiple Instance Learning </a> </li>
+
