@@ -1,16 +1,25 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Gemma 2B Text Summarization w/Zero-Shot Prompting
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/gemma-2b-text-summarization-w-zero-shot-prompting)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+I tried Gemma 2B for <b>text highlight</b> (maybe we can say a basic type of text summarization) with <b>zero-shot prompting</b>.
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
 <br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
+<span style="color:#e74c3c;"> <b><i> NOTE: This notebook is not efficient in respect of memory allocation. This is why, if you try the model in a row, it can throw errors pertaining to memory.</i></b> </span>
+
+The following methods using in this method.
+
+* one random sample's  'article' and 'highlights' from the train_data and one random sample's  'article' from test_data
+* creating a prompt with Gemma tokens [1]
+
 <br>
-<i>Confusion Matrix</i>
+
+![output-onlinepngtools-5](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/9cfe2b9b-8fad-4c50-b5c6-b6c5822bddd9)
+
+<i>Figure 1: a highlights example</i>
+10CV Custom ConvMixer) (F1:0.87)](https://www.kaggle.com/code/banddaniel/jellyfish-detect-10cv-custom-convmixer-f1-0-87)
+
+
+## References
+1. https://ai.google.dev/gemma/docs/formatting
