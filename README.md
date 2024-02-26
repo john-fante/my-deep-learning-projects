@@ -103,6 +103,12 @@
 
 
 
+#### Natural Language Processing
+
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/gemma-2b-text-summarization-w-zero-shot-prompting"> Gemma 2B Text Summarization w/Zero-Shot Prompting </a> </li>
+
+
 
 #### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
 
