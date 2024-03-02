@@ -110,6 +110,8 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/rating-prediction-w-sentencetransformer-catboost"> Rating Prediction w/SentenceTransformer, CatBoost </a> (MAE: 0.381) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/sentiment-analysis-w-catboostclassifier"> Sentiment Analysis w/CatBoostClassifier </a> (F1 Score: 0.703) </li>
+
 
 
 #### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
