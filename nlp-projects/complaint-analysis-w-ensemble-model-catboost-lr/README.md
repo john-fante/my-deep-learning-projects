@@ -1,16 +1,35 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Complaint Analysis w/Ensemble Model (CatBoost, LR)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/complaint-analysis-w-ensemble-model-catboost-lr)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+*I tried to predict the complaint classification of bank customers with an ensemble-based model.*
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+First of all, I applied several <b>preprocessing</b> operations (I tried stemming and lemmatization, but there was no betterment in the F1 score), then following models and methods
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+<hr>
+
+#### <span style="color:#e74c3c;"> Model 1 </span> Transformer Features, CatBoostClassifier
+* I used <b>a pretrained embeddings</b> for the text feature extraction stage [1],
+* <b>PCA for dimensionality reduction </b> (applied the output of pretrained embeddings with 300 components),
+
+#### <span style="color:#e74c3c;"> Model 2 </span> TfidfVectorizer, Logistic Regression
+* Created text features with <b>TfidfVectorizer</b>
+* Predicted with Logistic Regression (with simple tuned parameter)
+
+#### <span style="color:#2980b9;"> Final Weighted Average Ensemble Model</span> 
+* Used the first model weight of 32 % and the second model weight of 68 %
+
+<hr>
+
+<img width="1255" alt="Screenshot 2024-03-03 at 10 31 57 PM" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/f80a7fb0-c091-473b-87cf-e6f817a27cb9">
+
+*Figure 1: proposed ensemble classification pipeline*
+
+
+## My Another Projects
+* [Gemma 2B Text Summarization w/Zero-Shot Prompting](https://www.kaggle.com/code/banddaniel/gemma-2b-text-summarization-w-zero-shot-prompting)
+* [Rating Prediction w/SentenceTransformer, CatBoost](https://www.kaggle.com/code/banddaniel/rating-prediction-w-sentencetransformer-catboost)
+* [Sentiment Analysis w/CatBoostClassifier](https://www.kaggle.com/code/banddaniel/sentiment-analysis-w-catboostclassifier)
+
+## References
+1. https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
