@@ -112,6 +112,9 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/sentiment-analysis-w-catboostclassifier"> Sentiment Analysis w/CatBoostClassifier </a> (F1 Score: 0.703) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/complaint-analysis-w-ensemble-model-catboost-lr"> Complaint Analysis w/Ensemble Model (CatBoost, LR)  </a> (F1 Score: 0.86) </li>
+
+
 
 
 #### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
