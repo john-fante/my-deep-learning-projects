@@ -1,16 +1,19 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## News Analysis w/Tensorflow (TFDistilBERT)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/news-analysis-w-tensorflow-distilbert)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+*I tried to predict a news category with a DistilBert based Tensorflow model.*
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+* I applied several <b>preprocessing</b> operations (cleaning,dropping stop words, lemmatizing),
+* Used tf.data pipeline for efficient training,
+* I only used 100 max length for sequence length (bert models support up to 512 input lengths)
+* Only 1065 samples be used for training,  (710 samples for validating and 2664 samples for testing)
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+
+<img width="946" alt="Screenshot 2024-03-11 at 12 25 25 PM-min" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/46afdcc6-eae8-40d3-b4e1-6ba3fc63a277">
+
+
+## References
+1. https://towardsdatascience.com/hugging-face-transformers-fine-tuning-distilbert-for-binary-classification-tasks-490f1d192379
+2. https://www.kaggle.com/code/preatcher/emotion-detection-by-using-bert
