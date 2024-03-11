@@ -114,6 +114,8 @@
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/complaint-analysis-w-ensemble-model-catboost-lr"> Complaint Analysis w/Ensemble Model (CatBoost, LR)  </a> (F1 Score: 0.86) </li>
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/news-analysis-w-tensorflow-distilbert"> News Analysis w/Tensorflow (TFDistilBERT)  </a> (F1 Score: 0.89) </li>
+
 
 
 
