@@ -117,6 +117,8 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/news-analysis-w-tensorflow-distilbert"> News Analysis w/Tensorflow (TFDistilBERT)  </a> (F1 Score: 0.89) </li>
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/emotion-classification-w-logisticregression"> Emotion Classification w/LogisticRegression </a> </li>
+
 
 
 #### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
