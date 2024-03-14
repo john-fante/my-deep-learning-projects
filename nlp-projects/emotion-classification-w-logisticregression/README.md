@@ -1,16 +1,16 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Emotion Classification w/LogisticRegression
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/emotion-classification-w-logisticregression)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+*I tried to predict an emotion with LogisticRegression.*
+​
+* Dropped duplicate samples (original data size <b>839555</b>, after dropped <b>393822</b>),
+* I applied several <b>preprocessing</b> operations (cleaning,dropping stop words),
+* I tried a hybrid model <b>(SentenceTransformer + PCA + CatBoostClassifier)</b>, the model produce nearly 0.9 F1 score. 
+​
+​
+<i> <b>Result: </b> <span style="color:#e74c3c;">I checked target leakage for an overfitting issue by calculating cosine similarities between train samples and test samples, but there was no considerable leakage (generally, at most cosine similarity is nearly 80-90% for only 4-5 samples). </span> </i>
+​
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
-
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+### Results
+![__results___14_1](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/5c1e07b2-e46c-42c0-b2f9-170252a133a7)
