@@ -1,5 +1,7 @@
 ## Spam Mail Detection w/Tensorflow (DistilBERT)
 
+(kaggle link -> https://www.kaggle.com/code/banddaniel/spam-mail-detection-w-tensorflow-distilbert)
+
 *I tried to predict a spam mail with finetuning a DistilBert based Tensorflow model.*
 
 * I applied several <b>preprocessing</b> operations (cleaning,dropping stop words),
