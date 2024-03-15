@@ -1,16 +1,23 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Spam Mail Detection w/Tensorflow (DistilBERT)
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+*I tried to predict a spam mail with finetuning a DistilBert based Tensorflow model.*
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
+* I applied several <b>preprocessing</b> operations (cleaning,dropping stop words),
+* Used tf.data pipeline for efficient training,
+* I only used only 20 max length for sequence length (bert models support up to 512 input lengths),
+* Only 18000 samples be used for training (12000 samples for validating and 20000 samples for testing),
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+<img width="1134" alt="Screenshot 2024-03-14 at 8 45 08 PM" src="https://github.com/john-fante/my-deep-learning-projects/assets/50263592/d169e959-c215-4dd5-a217-e1a78201aedb">
+
+
+
+## My Another Projects
+* [Complaint Analysis w/Ensemble Model (CatBoost, LR)](https://www.kaggle.com/code/banddaniel/complaint-analysis-w-ensemble-model-catboost-lr)
+* [Gemma 2B Text Summarization w/Zero-Shot Prompting](https://www.kaggle.com/code/banddaniel/gemma-2b-text-summarization-w-zero-shot-prompting)
+* [Rating Prediction w/SentenceTransformer, CatBoost](https://www.kaggle.com/code/banddaniel/rating-prediction-w-sentencetransformer-catboost)
+
+
+## References
+1. https://towardsdatascience.com/hugging-face-transformers-fine-tuning-distilbert-for-binary-classification-tasks-490f1d192379
+2. https://www.kaggle.com/code/preatcher/emotion-detection-by-using-bert
