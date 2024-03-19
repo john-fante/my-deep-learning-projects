@@ -1,16 +1,17 @@
-## Normal heartbeat/Myocardial Infarction Classification
+## Social Media Post Multiclass Classification w/DistilBERT
 
-Basic ECG time series classification with Keras (Normal heartbeat vs Myocardial Infarction) <br>
-Data source -> https://www.timeseriesclassification.com/description.php?Dataset=ECG200 <br>
-Reference -> https://dl.acm.org/doi/book/10.5555/935627 <br>
+(kaggle link -> https://www.kaggle.com/code/banddaniel/social-media-post-multiclass-classify-w-distilbert)
 
-<img style="width:75%;" src='https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/32a8a301-c2db-47e3-956d-7edb2170ad65' alt="@github/john-fante ecg classification" >
 
-## Result
-<li> Sparse Categorical Accuracy: 83 % </li>
-<li> ROC AUC Score : 0.842 </li>
-<br>
+<i><span style="color:#e74c3c;"><b>MAIN GOAL: </b>  I tried to fine-tune a DistilBERT model for solving a multi-class problem (multi output model). The first prediction is bias class (neutral or partisan), the second  prediction is message (policy, personal, support, information etc.). </span></i>
 
-<img style="width:40%;" src="https://github.com/john-fante/normal_heartbeat_vs_myocardial_infarction_classification/assets/50263592/828fa795-29ef-4b47-8a3b-42d2d7879170" >
-<br>
-<i>Confusion Matrix</i>
+
+* I applied several <b>preprocessing</b> operations (cleaning,dropping stop words),
+* Used <b>tf.data pipeline</b> for efficient training,
+* I only used only 75 max length for sequence length (BERT models support up to 512 input lengths),
+
+
+## My Another Projects
+* [Complaint Analysis w/Ensemble Model (CatBoost, LR)](https://www.kaggle.com/code/banddaniel/complaint-analysis-w-ensemble-model-catboost-lr)
+* [Gemma 2B Text Summarization w/Zero-Shot Prompting](https://www.kaggle.com/code/banddaniel/gemma-2b-text-summarization-w-zero-shot-prompting)
+* [Crop Disease Classification w/Feature Fusion, DL Model](https://www.kaggle.com/code/banddaniel/crop-disease-classify-w-feature-fusion-dl-model)
