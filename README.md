@@ -109,6 +109,10 @@
 #### Natural Language Processing
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/social-media-post-multiclass-classify-w-distilbert"> Social Media Post Multiclass Classification w/DistilBERT </a> </li>
+
+
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/gemma-2b-text-summarization-w-zero-shot-prompting"> Gemma 2B Text Summarization w/Zero-Shot Prompting </a> </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/rating-prediction-w-sentencetransformer-catboost"> Rating Prediction w/SentenceTransformer, CatBoost </a> (MAE: 0.381) </li>
