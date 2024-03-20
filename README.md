@@ -109,9 +109,9 @@
 #### Natural Language Processing
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/news-zero-shot-topic-modelling-w-bertopic"> News Zero-Shot Topic Modelling w/BERTopic </a> </li>
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/social-media-post-multiclass-classify-w-distilbert"> Social Media Post Multiclass Classification w/DistilBERT </a> </li>
-
-
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/gemma-2b-text-summarization-w-zero-shot-prompting"> Gemma 2B Text Summarization w/Zero-Shot Prompting </a> </li>
 
