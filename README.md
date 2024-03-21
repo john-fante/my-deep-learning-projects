@@ -109,6 +109,8 @@
 #### Natural Language Processing
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-classification-w-custom-fnet"> Spam vs Ham Message Classification w/Custom FNet </a> (F1 Score: 0.92) </li>
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/news-zero-shot-topic-modelling-w-bertopic"> News Zero-Shot Topic Modelling w/BERTopic </a> </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/social-media-post-multiclass-classify-w-distilbert"> Social Media Post Multiclass Classification w/DistilBERT </a> </li>
