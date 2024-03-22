@@ -108,8 +108,8 @@
 
 #### Natural Language Processing
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-w-gemma-7b-fine-tuning-lora"> Spam vs Ham Message w/ Gemma 7B Fine-Tuning (LoRA) </a> </li>
 
-<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-classification-w-custom-fnet"> Spam vs Ham Message Classification w/Custom FNet </a> (F1 Score: 0.92) </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/news-zero-shot-topic-modelling-w-bertopic"> News Zero-Shot Topic Modelling w/BERTopic </a> </li>
 
@@ -118,6 +118,8 @@
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/gemma-2b-text-summarization-w-zero-shot-prompting"> Gemma 2B Text Summarization w/Zero-Shot Prompting </a> </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/rating-prediction-w-sentencetransformer-catboost"> Rating Prediction w/SentenceTransformer, CatBoost </a> (MAE: 0.381) </li>
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-classification-w-custom-fnet"> Spam vs Ham Message Classification w/Custom FNet </a> (F1 Score: 0.92) </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/sentiment-analysis-w-catboostclassifier"> Sentiment Analysis w/CatBoostClassifier </a> (F1 Score: 0.703) </li>
 
