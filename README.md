@@ -2,6 +2,8 @@
 
 #### Classification
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/endoscopy-image-classification-w-swin-transformer"> Endoscopy Image Classification w/Swin Transformer </a>  (F1 Score: 0.87) </li>
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/crop-disease-classify-w-feature-fusion-dl-model"> Crop Disease Classification w/Feature Fusion (EfficientNet, MobileNet) </a>  (F1 Score: 0.8) </li>
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/classification/30-plants-classification-main"> 30 Plants Detection w/Custom ConvMixer based CNN </a>  (F1 Score: 0.77) </li>
