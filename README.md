@@ -110,6 +110,10 @@
 
 #### Natural Language Processing
 
+
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/disease-article-topic-modelling-w-bertopic"> Disease Article Topic Modelling w/BERTopic</a> </li>
+
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-w-gemma-7b-fine-tuning-lora"> Spam vs Ham Message w/ Gemma 7B Fine-Tuning (LoRA) </a> </li>
 
 
