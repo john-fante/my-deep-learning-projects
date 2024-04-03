@@ -12,6 +12,10 @@
 * An end-2-end test prediction pipeline function,
 * Test evaluation metrics <b>(mean cosine similarity, mean BLEU Score)</b>,
 
+## Test Results 
+* Mean Cosine Similarity :  0.83046055
+* Mean BLEU Score :  0.09372312291706567
+
 
 ## Test Predictions
 ![Screenshot 2024-04-02 at 4 24 00 PM-3-2](https://github.com/john-fante/my-deep-learning-projects/assets/50263592/2b4f5a7d-b390-4452-95ee-9663e96f776b)
