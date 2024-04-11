@@ -110,6 +110,8 @@
 
 #### Natural Language Processing
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/yelp-review-stars-prediction-w-gemma-7b-lora">Yelp Review Stars Prediction (Classification) w/Gemma 7B (LoRA) </a> </li>
+
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/bbc-news-topic-modeling-w-lda">BBC News Topic Modeling w/LDA </a> </li>
 
