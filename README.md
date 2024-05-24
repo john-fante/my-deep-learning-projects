@@ -153,6 +153,8 @@
 #### Other Deep Learning Projects (Anomaly Detection, Image Captioning, Multiple Instance Learning etc.)
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/paligemma-3b-for-image-captioning"> PaliGemma 3B for Image Captioning  </a> </li>
+
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/other-dl-projects/ford-motor-data-anomaly-detection-w-aes-main"> Ford Motor Data Anomaly Detection with AutoEncoder </a> </li>
 
