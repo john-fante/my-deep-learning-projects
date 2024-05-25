@@ -111,6 +111,9 @@
 #### Natural Language Processing
 
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/ieee-research-papers-topic-modelling-w-lda">IEEE Research Papers Topic Modelling w/LDA </a> </li>
+
+
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/spam-vs-ham-message-classification-w-custom-fnet"> Depressive vs Non-depressive Tweet w/Custom FNet </a> (F1 Score: 0.88) </li>
 
 
