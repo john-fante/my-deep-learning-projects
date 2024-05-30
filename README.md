@@ -110,6 +110,8 @@
 
 #### Natural Language Processing
 
+<li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/paligemma-3b-for-license-plate-ocr">PaliGemma 3B for License Plate OCR </a> </li>
+
 
 <li> <a href ="https://github.com/john-fante/my-deep-learning-projects/tree/main/nlp-projects/ieee-research-papers-topic-modelling-w-lda">IEEE Research Papers Topic Modelling w/LDA </a> </li>
 
